@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans&display=swap');
+
+body {
+  background-color: #eeeeee;
+  font-family: Josefin Sans;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: Amatic SC;
+  color: #222831;
+  font-size: 35px;
+  line-height: 1.6;
+}
+
+h2 {
+  font-family: Amatic SC;
+  color: #393e46
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+h3 {
+  font-family: Amatic SC;
+  color: #393e46
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+a {
+  color: #222831;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffd369;
+}
+
+.a-dark {
+  color: #ffd369;
+  text-decoration: none;
+}
+
+.a-dark:hover {
+  color: #eeeeee;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-light {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card-dark {
+  background-color: #222831;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: #222831;
+  color: #eeeeee;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
