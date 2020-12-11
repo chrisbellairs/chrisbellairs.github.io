@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Christopher Bellairs Software Development Profile</title>
+  <meta name="description" content="Christopher Bellairs Software Development Profile">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="container">
+    <div class="blog-card-light">
+      <h2>Data Types</h2>
+      <p>As with any language the idea is to handle data and there are many different types of each. Below is a list of the core data types that you should be aware of.<br><br>
+
+String - A string is a sequence of characters. i.e. “Hello world…”<br>
+Fixnum - A fixnum is a whole number. i.e. 1234<br>
+Float - A float is a number with a decimal point. i.e. 1.234<br>
+Boolean - A boolean is simply true or false. i.e. 2 + 2 = 4 would return true.<br>
+Array - An array is a set of data stored within square brackets. i.e. [“one”, 2, 3, 4.5, true]. Each item is divided by a comma and you can have multiple types of data in one array, although this is an unlikely scenario.<br>
+Range - A range is exactly what it says on the tin, a range of either letters or numbers. i.e. (1..10) or (‘A’..’Z’). ‘..’ is inclusive of the last character, ‘...’ is not.<br><br>
+
+For each of the classes above there is an entire library of class methods that you can call on the instances of said class. An instance is a piece of data that belongs to that code. i.e. 1234 is a fixnum and “hello world” is a string. You can find all the different class methods by visiting ruby-doc.org and searching for the class that you want to learn more about, but I’ll provide a few of them right here so you get the jist of what they’re about. A class method is applied using a full stop after the class instance. i.e. class_instance.class_method.<br><br>
+
+<p><div class="script"><code>‘Hello world’.upcase #would return ‘HELLO WORLD’.</code></div></p>
+<p><div class="script"><code>‘Hello world’.include?(‘lo’) #would return true.</code></div></p> (If a method includes a ‘?’ it will return either true or false.)<br>
+
+<p><div class="script"><code>10.even? #would return true.</code></div></p>
+<p><div class="script"><code>10.odd? #would return false.</code></div></p>
+Fixnums can also make use of mathematical operators such +, -, * and /.<br>
+
+<p><div class="script"><code>12.5.fdiv(2.5) #would return 5.</code></div></p>
+
+<p><div class="script"><code>[1, 2, 3, 4, 5].length #would return 5.</code></div></p>
+<p><div class="script"><code>[1, 2, 3, 4, 5].reverse #would return [5, 4, 3, 2, 1]</code></div></p>
+
+<p><div class="script"><code>(1..5).to_a #would return an array of [1, 2, 3, 4, 5]</code></div></p><br>
+
+This is just a few quick examples to help you understand what it is that can be achieved through the use of class methods, but I highly recommend you read through the documentation of each one as the libraries of methods are quite substantial and the possibilities for use in your code are vast. A good rule of thumb is to check if there is a class method that can achieve the outcome you want before trying to code it yourself.<br><br>
+
+Before I wrap up this post I’m going to iterate once more just how important it is to make use of the Ruby documentation. It really will help you master Ruby much quicker by having it open to refer to whilst coding.
+
+      </p><br>
+      <a href="../index.html" class="btn">Return</a>
+    </div>
+    <div class="card-dark">
+      <ul class="list-inline">
+        <li>
+          <a href="#" class="a-dark">
+            <i class="fab fa-github-alt"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a-dark">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a-dark">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

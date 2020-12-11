@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Christopher Bellairs Software Development Profile</title>
+  <meta name="description" content="Christopher Bellairs Software Development Profile">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="container">
+    <div class="blog-card-light">
+      <h2>Methods</h2>
+      <p>Keep repeating the same piece of code over and over again? You need methods. Keep your code DRY. Don’t repeat yourself. Not only does it make your code cleaner, but it will also help you improve and add to your code as it grows.<br><br>
+
+A method is defined as follows…<br>
+
+<div class="script"><code>def method_name<br>
+  &ensp;#your code goes here<br>
+end</code></div><br>
+
+Just the same as variables your method names should follow lower_snake_case convention.<br><br>
+
+Once you have defined a method, to call it all you need do is refer back to it. Here’s an example…<br><br>
+
+<div class="script"><code>def greeting<br>
+  &ensp;puts “Hello world!”<br>
+end<br><br>
+
+greeting<br><br>
+
+#This would then return the string “Hello world!” to your terminal.</code></div><br>
+
+It’s pretty clear how much cleaner and easier to use your code will be by using methods, but there’s one more thing that about methods that increases their usability exponentially.<br><br>
+
+You can also feed data into the method which will use it in a block of code and spit out the results.<br><br>
+
+<div class="script"><code>def sum_of(first_num, second_num)<br>
+  &ensp;return first_num + second_num<br>
+end<br><br>
+
+sum_of(5, 10)<br><br>
+
+#This would return 15.</code></div><br>
+
+When defining the method you must provide parameters, in the above this would be (first_num, second_num). Upon calling the method you provide arguments to fill those parameters. Five and ten are fed into the method and the block of code adds them together.<br><br>
+
+The keyword return indicates what should be sent back. If there is no return given then the method will automatically return the last line of the method.<br><br>
+
+The examples I have provided are pretty basic, but I’m sure you can see how quickly they can scale to create complex applications.<br><br>
+
+      </p><br>
+      <a href="../index.html" class="btn">Return</a>
+    </div>
+    <div class="card-dark">
+      <ul class="list-inline">
+        <li>
+          <a href="#" class="a-dark">
+            <i class="fab fa-github-alt"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a-dark">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a-dark">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
